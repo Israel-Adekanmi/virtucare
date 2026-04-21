@@ -2,7 +2,7 @@ export interface Doctor {
   id: string;
   name: string;
   specialty: string;
-  availableSlots: { date: string; times: string[]; }[];
+  availableSlots: string[];
   image: string;
 }
 
