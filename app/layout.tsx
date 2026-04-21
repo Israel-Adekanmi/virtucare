@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "VirtuCare | Appointment Booking",
+  icons: {
+    icon: "/iconforvirtucare.png",
+  },
 };
 
 export default function RootLayout({
