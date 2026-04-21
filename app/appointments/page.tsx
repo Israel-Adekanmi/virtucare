@@ -11,6 +11,7 @@ export default function AppointmentsPage() {
 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("appointments") || "[]");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setAppointments(data);
   }, []);
 
