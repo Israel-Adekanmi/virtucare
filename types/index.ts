@@ -1,8 +1,9 @@
-export type Doctor = {
-  id: string
-  name: string
-  specialty: string
-  availableSlots: string[]
+export interface Doctor {
+  id: string;
+  name: string;
+  specialty: string;
+  availableSlots: { date: string; times: string[]; }[];
+  image: string;
 }
 
 export type Appointment = {
